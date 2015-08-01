@@ -1,8 +1,9 @@
-EvoPop
+EvopopRemix
 ====
 
-A simple, flat and bold Gtk theme for Solus OS & Budgie Desktop.
-Iris Dark was used as base.
+Using Evopop theme as base with some tweaks:
+* Yosemite-styled window buttons
+* Android Lollipop-styled wingpanel
 
 This project is still a work in progress.
 Requires Gtk 3.16 & gtk-engine-murrine to function properly.
@@ -17,8 +18,6 @@ Extract the zip file & run the included install script.
 
     sh autogen.sh
     sudo make install
-
-Use Budgie settings to change the theme to EvoPop.
 
 ---
 
