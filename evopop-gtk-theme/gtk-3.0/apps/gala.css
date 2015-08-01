@@ -5,3 +5,48 @@
     background-image: none;
     color: @header_fg_color;
 }
+
+.panel {
+    background-color: shade(@header_bg_color,0.85);
+}
+
+.panel-shadow {
+    background-image: none;
+    background-color: transparent;
+}
+
+.panel .menu {
+    box-shadow: none;
+}
+
+.panel .menu .spinner {
+    opacity: 1;
+}
+
+.panel .menu .window-frame.menu.csd,
+.panel .menu .window-frame.popup.csd {
+    box-shadow: 0 0 0 1px alpha (#000, 0.20),
+                0 10px 20px alpha (#000, 0.19),
+                0 6px 6px alpha (#000, 0.23);
+}
+
+.panel .window-frame.menu.csd,
+.panel .window-frame.popup.csd {
+    box-shadow: none;
+}
+
+.composited-indicator > GtkBox > GtkImage,
+.composited-indicator > GtkBox > GtkLabel,
+.composited-indicator > GtkRevealer {
+    color: #fff;
+    text-shadow: 0 1px 2px alpha (#000, 0.6);
+    icon-shadow: 0 1px 2px alpha (#000, 0.6);
+}
+
+.composited-indicator > GtkWidget > GtkWidget:first-child {
+    padding: 0 2px;
+}
+
+.panel-app-button > GtkWidget > GtkWidget:first-child {
+	 padding: 0;
+}
